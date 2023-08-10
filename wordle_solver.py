@@ -115,7 +115,7 @@ def main() -> None:
     with open("df_words_5chars.pickle", "rb") as f:
         df = pickle.load(f)
 
-    wr = WordRestriction(
+    wr = WordRestriction( # Customize this as you play (automated word resolution under construction)
         excluded_letters=[],
         letters_occurrence=[],
         letter_position_restriction=[],
